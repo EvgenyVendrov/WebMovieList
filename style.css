@@ -1,0 +1,192 @@
+/* layout */
+
+* {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  margin: 0;
+}
+
+#trans_backg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  overflow: scroll;
+  background: rgba(94, 132, 165, 0.33);
+}
+
+input {
+  margin-top: 10px;
+  margin-bottom: 13px;
+  text-align: center;
+  height: 15px;
+}
+
+.centered {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+img {
+  max-width: 369px;
+  max-height: 208px;
+}
+
+#add_movie_int {
+  margin-right: 15px;
+}
+
+#cancle_add_btn {
+  margin-left: 15px;
+}
+
+#add_movie_ext_btn {
+  margin-left: auto;
+}
+
+.text_for_movie_box {
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+#no_movies_wrap {
+  margin-top: 33vh;
+}
+
+.movie_modal_form {
+  margin-top: 11%;
+  margin-bottom: 2%;
+  font-family: "Fjalla One", sans-serif;
+}
+
+#edit_movie_int {
+  margin-right: 15px;
+}
+
+#cancle_edit_add_btn {
+  margin-left: 15px;
+}
+
+/* component style */
+
+header {
+  background-color: #0063b2ff;
+  height: 90px;
+  flex-direction: column;
+  width: 100%;
+}
+
+#text_wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.not_visibale {
+  display: none;
+  border: none;
+}
+
+.btn {
+  background-color: rgb(62, 147, 204);
+  border: none;
+  cursor: pointer;
+  padding: 5px 8px;
+}
+
+.btn:hover {
+  background-color: rgb(131, 168, 185);
+}
+
+.box_for_movie {
+  margin-top: 5%;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  height: 300px;
+  min-width: 250px;
+  flex-direction: column;
+}
+
+#movie_box_wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+#add_movie_ext_btn {
+  padding: 13px 30px;
+}
+
+#btn_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.movie_modal {
+  background-color: #93b4d4;
+  border-style: solid;
+  border-width: 7px;
+  border-color: rgb(47, 116, 172);
+  width: 475px;
+  height: 300px;
+  margin-top: 200px;
+}
+
+.movie_modal:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(58, 81, 102, 0.8);
+  content: "";
+  z-index: -1;
+}
+
+#text_of_no_movies {
+  align-content: center;
+  justify-content: center;
+}
+
+/* typography */
+
+header {
+  color: white;
+  border-color: black;
+}
+#header_heading {
+  font-size: 19px;
+  font-family: "Bungee", cursive;
+}
+#text_of_no_movies {
+  font-family: "Bungee", cursive;
+}
+
+#add_movie_ext_btn {
+  text-align: center;
+}
+
+.movie_modal_form {
+  text-align: center;
+}
+
+label {
+  color: white;
+}
+
+.text_for_movie_box {
+  font-size: 15px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.btn {
+  font-family: "Fira Sans", sans-serif;
+  color: white;
+}

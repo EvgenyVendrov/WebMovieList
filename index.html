@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+    <script src="app.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <div id="trans_backg">
+      <header class="centered">
+        <h2 id="header_heading">
+          View Your Watchlist
+        </h2>
+        <button class="btn" id="add_movie_ext_btn">
+          Add A Movie
+        </button>
+      </header>
+      <main class="centered" id="main_section">
+        <div id="no_movies_wrap">
+          <h1 id="text_of_no_movies">No Movies To Show</h1>
+        </div>
+        <div id="add_movie_modal" class="not_visibale movie_modal">
+          <form id="add_movie_form" class="movie_modal_form">
+            <label for="movieName">Movie Name:</label><br />
+            <input
+              type="text"
+              id="mname"
+              name="mname"
+              placeholder="Enter Movies Name"
+            /><br />
+            <label for="movieImg">Link(URI) To Movie's Image:</label><br />
+            <input
+              type="text"
+              id="mimage"
+              name="mimage"
+              placeholder="URI for the Image"
+            /><br />
+            <label for="movieName">Movie Score (1-10):</label><br />
+            <input
+              type="number"
+              id="mscore"
+              name="mscore"
+              value="Score"
+              min="1"
+              max="10"
+            /><br />
+          </form>
+          <button class="btn add_movie_btn" id="add_movie_int">Add</button>
+          <button class="btn add_movie_btn" id="cancle_add_btn">Cancle</button>
+        </div>
+        <div id="edit_movie_modal" class="not_visibale movie_modal">
+          <form id="edit_movie_form" class="movie_modal_form">
+            <label for="movieName">Movie Name:</label><br />
+            <input type="text" id="mname" name="mname" /><br />
+            <label for="movieImg">Link(URI) To Movie's Image:</label><br />
+            <input type="text" id="mimage" name="mimage" /><br />
+            <label for="movieName">Movie Score (1-10):</label><br />
+            <input
+              type="number"
+              id="mscore"
+              name="mscore"
+              value="Score"
+              min="1"
+              max="10"
+            /><br />
+          </form>
+          <button class="btn movie_btn" id="edit_movie_int">
+            Done Editing
+          </button>
+          <button class="btn movie_btn" id="cancle_edit_add_btn">Cancle</button>
+        </div>
+        <div id="movie_box_wrap" class="not_visibale"></div>
+      </main>
+    </div>
+  </body>
+</html>
