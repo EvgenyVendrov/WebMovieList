@@ -24,11 +24,11 @@ const listOfInputsInEditMovie = editMovieForm.getElementsByTagName("input");
 const addMovieModalBtnHandler = () => {
   if (addMovieModal.classList.contains("not_visibale")) {
     addMovieModal.classList.toggle("not_visibale");
-  }
-  if (listOfMovies.length == 0) {
-    noMovieHeading.classList.toggle("not_visibale");
-  } else {
-    toggleMoviesVisibilityAddMovieExternalHandler();
+    if (listOfMovies.length == 0) {
+      noMovieHeading.classList.toggle("not_visibale");
+    } else {
+      toggleMoviesVisibilityAddMovieExternalHandler();
+    }
   }
 };
 
