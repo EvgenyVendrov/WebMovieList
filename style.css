@@ -29,8 +29,8 @@ input[type="text"] {
 }
 
 img {
-  max-width: 369px;
-  max-height: 208px;
+  max-width: 370px;
+  max-height: 450px;
 }
 
 #add_movie_int {
@@ -202,7 +202,12 @@ label {
     border-style: solid;
     border-color: black;
     border-radius: 10px;
-    width: 370px;
+    width: 365px;
     flex-direction: column;
+  }
+
+  img {
+    max-width: 370px;
+    max-height: 250px;
   }
 }
