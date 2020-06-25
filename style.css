@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+body {
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 #trans_backg {
   width: 100vw;
   height: 100vh;
