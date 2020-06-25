@@ -8,7 +8,6 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0;
-  overflow: visible;
 }
 
 #trans_backg {
@@ -16,7 +15,7 @@ body {
   height: 100%;
   margin: 0;
   position: absolute;
-  overflow: scroll;
+  overflow-y: scroll;
   background: rgba(94, 132, 165, 0.33);
 }
 
