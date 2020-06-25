@@ -171,6 +171,7 @@ header {
   border-color: black;
 }
 #header_heading {
+  margin-bottom: 18px;
   font-size: 19px;
   font-family: "Bungee", cursive;
 }
