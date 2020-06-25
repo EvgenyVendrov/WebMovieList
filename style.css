@@ -196,4 +196,13 @@ label {
     height: 40%;
     margin-top: 10%;
   }
+
+  .box_for_movie {
+    margin-top: 5%;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    min-width: 60%;
+    flex-direction: column;
+  }
 }
