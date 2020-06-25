@@ -128,8 +128,8 @@ header {
   border-style: solid;
   border-width: 7px;
   border-color: rgb(47, 116, 172);
-  width: 20%;
-  height: 40%;
+  width: 400px;
+  height: 300px;
   margin-top: 10%;
 }
 
@@ -192,8 +192,8 @@ label {
     border-style: solid;
     border-width: 7px;
     border-color: rgb(47, 116, 172);
-    width: 70%;
-    height: 40%;
+    width: 365px;
+    height: 280px;
     margin-top: 10%;
   }
 
