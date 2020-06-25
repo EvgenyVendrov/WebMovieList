@@ -100,6 +100,9 @@ header {
 }
 
 .btn {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: rgb(62, 147, 204);
   border: black;
   border-radius: 3px;
