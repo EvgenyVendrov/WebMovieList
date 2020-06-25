@@ -115,7 +115,7 @@ header {
 }
 
 #add_movie_ext_btn {
-  padding: 13px 30px;
+  padding: 13px 20px;
 }
 
 #btn_wrap {
@@ -210,5 +210,9 @@ label {
   img {
     max-width: 370px;
     max-height: 250px;
+  }
+
+  #add_movie_ext_btn {
+    margin-top: 8px;
   }
 }
