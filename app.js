@@ -14,7 +14,6 @@ const wrapOfMovieBoxDiv = document.getElementById("movie_box_wrap");
 const editMovieModal = document.getElementById("edit_movie_modal");
 const editMovieForm = document.getElementById("edit_movie_form");
 const allFormInputsEditMovie = editMovieForm.getElementsByTagName("input");
-const deleteMovieBtn = document.getElementById("");
 let doneEditingBtn = document.getElementById("edit_movie_int");
 const cancleEditingBtn = document.getElementById("cancle_edit_add_btn");
 const listOfInputsInEditMovie = editMovieForm.getElementsByTagName("input");
